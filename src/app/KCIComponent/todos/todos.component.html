@@ -1,0 +1,7 @@
+<div class = "container">
+    <h1 class="text-center mb-3">KCI Report</h1>
+<div *ngFor="let model of model">
+<app-model-item [model]="model" (modelDelete)="deleteModel($event)"></app-model-item>
+</div>
+</div>
+    
